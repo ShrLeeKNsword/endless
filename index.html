@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				user-select: none;
+				box-sizing: border-box;
+			}
+
+			html,
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				max-width: 1300px;
+				min-width: 920px;
+				min-height: 1080px;
+				background: #423939;
+			}
+
+			.box {
+				width: 95%;
+				background: #827979;
+				position: relative;
+				margin: 20px 20px 20px 20px;
+				padding: 30px 30px 30px 30px;
+				box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.2);
+				border-radius: 2px;
+			}
+
+			.gamebox {
+				min-height: 600px;
+				min-width: 800px;
+				background: black;
+			}
+
+			.box_title {
+				font-size: 40px;
+				color: white;
+			}
+
+			.box_context {
+				font-size: 25px;
+				color: white;
+			}
+		</style>
+
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。")
+
+			});
+		</script>
+	</head>
+	<body>
+		<!DOCTYPE html>
+		<html lang="en">
+
+			<head>
+				<meta charset="UTF-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>测试</title>
+
+				<div class="box">
+					<span class="box_title">666</span><br>
+					<div class="gamebox">
+					</div>
+				</div>
+				<div class="box">
+					<span class="box_title">操作方法</span><br>
+					<span class="box_context">鼠标：点击游戏画面操作</span><br>
+					<span class="box_context">键盘：“上下左右”键盘移动，“Shift”奔跑/取消奔跑，“Enter/空格”确定，“Esc”取消</span><br>
+					</div>
+				</div>
+
+	</body>
+</html>
